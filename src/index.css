@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +67,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+=======
+html, body, #root {
+  margin: 0;                   /* Removes default white spacing from browser */
+  width: 100%;                 /* Full width of the screen */
+  height: 100%;                /* Full height of the screen */
+  background: #ccc;            /* Light gray background for the entire app */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* Sets a nice readable font for the entire page */
+}
+>>>>>>> c8f41d2 (Success Message)
