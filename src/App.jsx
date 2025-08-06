@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1>Hello World!!!</h1>
-    </>
-  )
-}
-
-export default App
-=======
 // Import necessary tools from React
 import React, { Component } from 'react';
 
@@ -33,7 +15,7 @@ class App extends Component {
       slideCount: 3     // total number of slides (3 in total)
     };
 
-    // Bind the method so it can access this
+    // Bind the method so it can access `this`
     this.autoSlide = this.autoSlide.bind(this);
   }
 
@@ -53,8 +35,7 @@ class App extends Component {
 
     // Move the slide container to show the correct slide
     // For example, if nextIndex = 1 → translateX(-100%), index 2 → -200%, etc.
-  document.getElementById("slideRef").style.transform = `translateX(-${nextIndex * 100}%)`;
-
+    document.getElementById("slideRef").style.transform = `translateX(-${nextIndex * 100}%)`;
   }
 
   // Render method to show content on the screen
@@ -91,4 +72,3 @@ class App extends Component {
 
 // Export the App component so it can be used in main.jsx
 export default App;
->>>>>>> c8f41d2 (Success Message)
